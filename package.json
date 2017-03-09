@@ -1,0 +1,23 @@
+{
+  "name": "16-bangazon-db",
+  "version": "1.0.0",
+  "description": "## Introduction Now that you have some experience with writing ERDs for, and querying, an existing db, and you've tried your hand at the commands for initializing a new db from scratch, it's time to design and build a db you will actually use. The group project for this milestone will need to read and write to a database of customer information, payment data, a collection of products, and a record of customer orders.",
+  "main": "databaseFunctions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMcL/16-bangazon-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMcL/16-bangazon-db/issues"
+  },
+  "homepage": "https://github.com/LucasMcL/16-bangazon-db#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}
