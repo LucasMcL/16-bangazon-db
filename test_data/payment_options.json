@@ -1,5 +1,5 @@
 {
-  "payment_options": [{
+  "paymentOptions": [{
     "paymentName": "jcb",
     "accountNumber": "3561408050404912"
   }, {
