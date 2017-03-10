@@ -11,6 +11,10 @@ const {Database} = require('sqlite3')
 const db = new Database('bangazon.sqlite')
 
 
+///////////////////
+// Create Tables //
+///////////////////
+
 function createCustomers() {
 	db.run(`CREATE TABLE IF NOT EXISTS 'customers' (
 		'customerId' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
@@ -36,13 +40,52 @@ function createOrders() {
 		'orderId' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
 		'customerId' INTEGER NOT NULL,
 		'paymentOptionId' INTEGER NOT NULL,
-		'paidInFull' INTEGER NOT NULL,
+		'paidInFull' INTEGER,
 		FOREIGN KEY ('customerId') REFERENCES customers(customerId),
 		FOREIGN KEY ('paymentOptionId') REFERENCES payment_options(paymentOptionId)
 		)`)
 }
-// `customerId`	TEXT,
-// 	FOREIGN KEY(`customerId`) REFERENCES customers(customerId)
+
+function createProducts() {
+	db.run(`CREATE TABLE IF NOT EXISTS 'products' (
+		'productId' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+		'productName' INTEGER,
+		'productPrice' INTEGER
+		)`)
+}
+
+function createOrderLineItems() {
+	db.run(`CREATE TABLE IF NOT EXISTS 'order_line_items' (
+		'lineItemId' INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+		'orderId' INTEGER NOT NULL,
+		'productId' INTEGER NOT NULL,
+		FOREIGN KEY ('orderId') REFERENCES orders(orderId),
+		FOREIGN KEY ('productId') REFERENCES products(productId)
+		)`)
+}
+
+/////////////////////
+// Populate Tables //
+/////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

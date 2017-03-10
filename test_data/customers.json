@@ -1,0 +1,73 @@
+{
+	"customers": [{
+	  "name": "Rebecca Sanchez",
+	  "address": "7 Elka Place",
+	  "city": "Chicago",
+	  "state": "Illinois",
+	  "postalCode": "60619",
+	  "phoneNumber": "1-(773)843-1233"
+	}, {
+	  "name": "Anthony Harris",
+	  "address": "7567 Boyd Parkway",
+	  "city": "Springfield",
+	  "state": "Illinois",
+	  "postalCode": "62764",
+	  "phoneNumber": "1-(217)287-0942"
+	}, {
+	  "name": "William Willis",
+	  "address": "8 Iowa Way",
+	  "city": "Augusta",
+	  "state": "Georgia",
+	  "postalCode": "30911",
+	  "phoneNumber": "1-(706)985-9379"
+	}, {
+	  "name": "Clarence Hunter",
+	  "address": "1642 Bayside Road",
+	  "city": "College Station",
+	  "state": "Texas",
+	  "postalCode": "77844",
+	  "phoneNumber": "1-(979)392-1583"
+	}, {
+	  "name": "Ashley Dunn",
+	  "address": "337 Dennis Pass",
+	  "city": "Richmond",
+	  "state": "Virginia",
+	  "postalCode": "23242",
+	  "phoneNumber": "1-(804)735-1264"
+	}, {
+	  "name": "Fred West",
+	  "address": "3 Rusk Hill",
+	  "city": "Oklahoma City",
+	  "state": "Oklahoma",
+	  "postalCode": "73114",
+	  "phoneNumber": "1-(405)222-6052"
+	}, {
+	  "name": "Frances James",
+	  "address": "1 Mendota Plaza",
+	  "city": "Madison",
+	  "state": "Wisconsin",
+	  "postalCode": "53790",
+	  "phoneNumber": "1-(608)661-2764"
+	}, {
+	  "name": "Sarah Ray",
+	  "address": "94 Oxford Lane",
+	  "city": "San Jose",
+	  "state": "California",
+	  "postalCode": "95133",
+	  "phoneNumber": "1-(408)888-0519"
+	}, {
+	  "name": "Gloria Alvarez",
+	  "address": "36 Lotheville Center",
+	  "city": "Los Angeles",
+	  "state": "California",
+	  "postalCode": "90094",
+	  "phoneNumber": "1-(323)188-1157"
+	}, {
+	  "name": "Diane Gilbert",
+	  "address": "061 Pennsylvania Place",
+	  "city": "Seattle",
+	  "state": "Washington",
+	  "postalCode": "98175",
+	  "phoneNumber": "1-(206)323-0742"
+	}]
+}
